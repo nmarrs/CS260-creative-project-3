@@ -1,0 +1,51 @@
+html, body {
+	height: 100%;
+}
+
+body {
+    background: url("snake.jpg") no-repeat top center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 528px;
+}
+
+#gameContainer, #pastScores {
+	width: 600px;
+}
+
+.row {
+	height: 26px;
+}
+
+.column {
+	border: 1px solid white;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+}
+
+.snake-game-card {
+	width: 550px;	
+}
+
+.btn {
+	width: 125px;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+#snake {
+    height: 50px;
+}
